@@ -1,0 +1,150 @@
+/* Custom Stylesheet */
+body, html {
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+      background:#555;
+      text-align: center;
+      overflow: hidden;
+      -webkit-transition: opacity 400ms;
+      -moz-transition: opacity 400ms;
+      transition: opacity 400ms;
+	color: black;
+}
+
+body, .main, html {
+  display: block;
+  position: static;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+body .header{
+  color: #ecf0f1;
+}
+
+.main p {
+  color: #ecf0f1;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.nav-top a {
+  color: #ecf0f1;
+}
+
+/* ALL DEMO */
+h1 {
+  color: #ecf0f1;
+}
+
+.main {
+  margin-top: -280px;
+}
+
+.menu, .header, .nav-top {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 10;
+}
+
+.main section.page1 {
+  background: url(../img/home.jpg) center top no-repeat #555;
+	color: black;
+}
+
+.main section.page1 .page_container {
+  position: absolute;
+  bottom: 0;
+  margin-left: -320px;
+  left: 50%;
+  margin-bottom: 50px;
+  max-width: 650px;
+	text-align: center;
+}
+
+.main section.page1 .page_container h1 {
+  letter-spacing: 0px;
+  font-weight: 50;
+  font-size: 40px;
+}
+
+.main section.page1 .page_container p{
+  line-height: 140%;
+  font-size: 18px;
+  font-weight: 400;
+  color: #d0cece;
+}
+
+.main section.page2 {
+  background: url(../img/page2.jpg) 0% 0px no-repeat rgb(230, 217, 200);
+}
+.main section.page3 {
+  background: url(../img/page3.jpg) 0% 0px no-repeat rgb(255, 255, 255)
+}
+
+.main section.page2 .page_container {
+  position: absolute;
+  margin-left: -800px;
+  left: 50%;
+  top: 42%;
+  margin-bottom: 50px;
+  max-width: 445px;
+}
+
+style {
+	
+}
+
+.main section.page2 .page_container h1 {
+  letter-spacing: 0px;
+	font-size: 60px;
+  color: black;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+
+.main section.page2 .page_container p{
+  line-height: 160%;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  color: black;
+}
+
+body .header h1 {
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+body .nav-top span.right a {
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+body.viewing-page-2 .header h1, body.viewing-page-2 .nav-top span.right a {
+  color: black;
+}
+
+.main section.page3 .page_container {
+  position: absolute;
+  margin-left: -660px;
+  left: 50%;
+  top: 55%;
+  margin-bottom: 50px;
+  max-width: 550px;
+	text-align: left;
+}
+
+.main section.page3 .page_container h1 {
+  letter-spacing: 0px;
+  font-weight: 100;
+  font-size: 18px;
+	text-align: left;
+}
