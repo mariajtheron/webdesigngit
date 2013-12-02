@@ -40,7 +40,7 @@ h1 {
 }
 
 .main {
-  margin-top: -280px;
+  margin-top: -80px;
 }
 
 .menu, .header, .nav-top {
@@ -50,8 +50,8 @@ h1 {
 }
 
 .main section.page1 {
-  background: url(../img/home.jpg) center top no-repeat #555;
-	color: black;
+  background: url(../img/home.jpg)  0% 0px no-repeat;
+	color: white;
 }
 
 .main section.page1 .page_container {
@@ -78,19 +78,19 @@ h1 {
 }
 
 .main section.page2 {
-  background: url(../img/page2.jpg) 0% 0px no-repeat rgb(230, 217, 200);
+  background: url(../img/page2.jpg) 0% 0px no-repeat;
 }
 .main section.page3 {
-  background: url(../img/page3.jpg) 0% 0px no-repeat rgb(255, 255, 255)
+  background: url(../img/page3.jpg) 0% 0px no-repeat;
 }
 
 .main section.page2 .page_container {
   position: absolute;
-  margin-left: -800px;
+  margin-left: -730px;
   left: 50%;
-  top: 42%;
+  top: 39.5%;
   margin-bottom: 50px;
-  max-width: 445px;
+  max-width: 380px;
 }
 
 style {
@@ -99,7 +99,7 @@ style {
 
 .main section.page2 .page_container h1 {
   letter-spacing: 0px;
-	font-size: 60px;
+	font-size: 50px;
   color: black;
   margin-bottom: 10px;
   text-align: left;
@@ -108,7 +108,7 @@ style {
 
 .main section.page2 .page_container p{
   line-height: 160%;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
   text-align: left;
   color: black;
@@ -135,16 +135,24 @@ body.viewing-page-2 .header h1, body.viewing-page-2 .nav-top span.right a {
 .main section.page3 .page_container {
   position: absolute;
   margin-left: -660px;
-  left: 50%;
-  top: 55%;
-  margin-bottom: 50px;
-  max-width: 550px;
+  left: 53%;
+  top: 50%;
+  margin-bottom: 80px;
+  max-width: 510px;
 	text-align: left;
 }
 
 .main section.page3 .page_container h1 {
   letter-spacing: 0px;
-  font-weight: 100;
-  font-size: 18px;
+  font-weight: 0;
+  font-size: 10px;
 	text-align: left;
+}
+
+.main section.page3 .page_container p{
+  line-height: 140%;
+  font-size: 15px;
+  font-weight: 100;
+  text-align: left;
+  color: white;
 }
